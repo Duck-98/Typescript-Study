@@ -8,3 +8,8 @@ sum(10, 20);
 function add(): number {
   return 10;
 }
+
+// 함수의 옵셔널 파라미터
+function log(a: string, b?: string) {}
+log("hello world");
+log("hellow ts", "abc");
