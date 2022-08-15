@@ -68,3 +68,6 @@ var devduck: Developer = {
   age: 25,
   language: "JS ES-6",
 };
+
+type MyName = string;
+const dname: MyName = "duck";
